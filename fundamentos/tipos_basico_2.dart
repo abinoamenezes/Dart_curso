@@ -22,4 +22,5 @@ main() {
   print(times.length);
   print(times.add('São Paulo'));
   print(times.contains('Atletico'));
+  print(times.elementAt(0));
 }
