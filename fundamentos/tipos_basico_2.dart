@@ -1,6 +1,7 @@
 main() {
   //lista
   List nomes = ['carlos', 'Miguel', 'Vitor'];
+  nomes.add('Fernanda');
   print(nomes.elementAt(1));
   print(nomes[0]);
   print(nomes.length);
