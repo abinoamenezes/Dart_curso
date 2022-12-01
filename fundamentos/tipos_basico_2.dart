@@ -15,4 +15,11 @@ main() {
   print(telefones.keys);
   print(telefones.values);
   print(telefones.entries);
+
+  //set
+
+  Set times = {'Corinthians', 'Flamengo', 'Sport', 'Santa Cruz'};
+  print(times.length);
+  print(times.add('São Paulo'));
+  print(times.contains('Atletico'));
 }
