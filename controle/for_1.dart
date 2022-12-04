@@ -1,5 +1,12 @@
 main() {
-  for (int a = 0; a == 10; a++) {
-    print('a= $a');
+  // for com escopo local
+  for (int x = 100; x >= 0; x -= 4) {
+    //print('x= $x');
+  }
+
+  // for com escopo global
+  int b = 0;
+  for (; b < 100; b++) {
+    print(b);
   }
 }
