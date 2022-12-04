@@ -8,8 +8,7 @@
         {
             "name": "Dart & Flutter",
             "request": "launch",
-            "type": "dart",
-            "dart.flutterSdkPath" : "/home/abinoa/flutter/bin/cache/dart-sdk/bin/"
+            "type": "dart"
         }
     ]
 }
