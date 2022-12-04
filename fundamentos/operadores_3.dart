@@ -1,5 +1,6 @@
 main() {
   int a = 3;
-  a++;
-  print(a);
+  int b = 4;
+
+  print(a++ == ++a);
 }
