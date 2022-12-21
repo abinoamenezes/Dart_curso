@@ -1,6 +1,6 @@
 import 'dart:math';
 
-parOrImpar(Function fnImpar, Function fnPar) {
+parOrImpar({var fnImpar, var fnPar}) {
   var vSorteado = Random().nextInt(10);
   print(vSorteado);
   if (vSorteado % 2 == 0) {
@@ -14,5 +14,5 @@ main() {
   var fnImpar = () => print('o valor foi impar');
   var fnPar = () => print('O valor foi par');
 
-  parOrImpar(fnImpar, fnPar);
+  parOrImpar(fnImpar: fnImpar, fnPar: fnPar);
 }
